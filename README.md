@@ -5,7 +5,6 @@ a full network. For details see https://aws.amazon.com/blogs/aws/dynamodb-local-
 
 To use link to your application:
 
-    sudo docker run -d --name dynamodb deangiberson/aws_dynamodb_local
+    sudo docker run -d --name dynamodb deangiberson/aws-dynamodb-local
 
     sudo docker run -d -P --name web --link dynamodb:dynamodb training/webapp python app.py
-
