@@ -14,7 +14,7 @@ WORKDIR /var/dynamodb_wd
 EXPOSE 8000
 
 # Get the package from Amazon
-RUN wget -O /var/dynamodb_wd/dynamodb_local_latest http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest
+RUN wget -O /var/dynamodb_wd/dynamodb_local_latest https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz
 RUN tar xfz /var/dynamodb_wd/dynamodb_local_latest
 
 # Default command for image
