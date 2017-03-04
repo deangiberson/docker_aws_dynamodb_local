@@ -7,7 +7,6 @@ FROM makuk66/docker-oracle-java7
 MAINTAINER Dean Giberson <dean@deangiberson.com>
 
 # Create working space
-RUN mkdir /var/dynamodb_wd
 WORKDIR /var/dynamodb_wd
 
 # Default port for DynamoDB Local
