@@ -3,7 +3,7 @@
 #
 # https://aws.amazon.com/blogs/aws/dynamodb-local-for-desktop-development/
 #
-FROM makuk66/docker-oracle-java7
+FROM openjdk:7-jre
 MAINTAINER Dean Giberson <dean@deangiberson.com>
 
 # Create working space
